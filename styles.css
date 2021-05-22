@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+b{
+    font-weight: 700;
+}
+
+/* override link color */
+a{
+    color: inherit;
+}
+
+/* color vars */
+:root {  
+    /* regular colors */
+    --red: #FF4B4B;
+    --yellow: #FFAC4B;
+    --green: #9BE53C;
+    --blue: #4B68FF;
+
+    /* dark (for text) */
+    --dred: #6B0000;
+    --dyellow: #6B3900;
+    --dgreen: #3D6B00;
+    --dblue: #00116B;
+
+    /* fade (for comments) */
+    --fred: #D86B6B;
+    --fyellow: #D8A56B;
+    --fgreen: #A9D86B;
+    --fblue: #6B7CD8;
+
+    /* greyscale */
+    --grey: #A5A5A5;
+    --dgrey: black;
+    --fgrey: #A1A1A1;
+}
+
+/* flex settings */
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--grey);  
+}
+
+.box {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #000000bb;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+}
