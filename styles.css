@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
 }
 b{
     font-weight: 700;
@@ -52,10 +51,11 @@ a{
 .container{
   width: 100vw;
   height: 100vh;
-  background-color: var(--grey);  
+  text-align: center; 
+  align-items: center;
 }
 
-.box {
+/* .box {
     width: 80vw;
     height: auto;
     display: flex;
@@ -68,4 +68,29 @@ a{
     align-items: center;
     text-align: center;
     padding: 10px 30px;
+} */
+
+.box {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.title{
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+.menu{
+    width: 80vw;
+    height: auto;
+    justify-content: space-between;
+    font-size: 1.5rem;
 }
