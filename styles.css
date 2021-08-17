@@ -70,24 +70,26 @@ a {
 
 .title {
     font-size: 1.5rem;
-    position: absolute;
-    top: 50px;
-    right: 50px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navbar {
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
 }
 
 .menu {
     width: auto;
     height: auto;
     font-size: 1.5rem;
-    position: absolute;
-    top: 50px;
-    left: 50px;
 }
 
 .menuItem {
     margin-right: 50px;
 }
 
-@media (max-width: 849px) {
+@media (max-width: 949px) {
 
 }
