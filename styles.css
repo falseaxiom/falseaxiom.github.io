@@ -91,6 +91,6 @@ a{
 .menu{
     width: 80vw;
     height: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 1.5rem;
 }
