@@ -51,8 +51,8 @@ a {
 .container{
   width: 100vw;
   height: 100vh;
-  /* text-align: center; 
-  align-items: center; */
+  text-align: center; 
+  align-items: center;
 }
 
 .box {
@@ -68,26 +68,36 @@ a {
     padding: 10px 30px;
 }
 
-.title {
-    font-size: 1.5rem;
-    margin-left: auto;
-    margin-right: 50px;
-}
-
 .navbar {
     margin-top: 50px;
     margin-left: 50px;
+    margin-right: 50px;
     justify-content: space-between;
 }
 
 .menu {
     width: auto;
-    height: auto;
+    height: 40px;
     font-size: 1.5rem;
 }
 
 .menuItem {
-    margin-right: 50px;
+    margin-right: 30px;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.logoContainer {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 2rem;
 }
 
 @media (max-width: 949px) {
