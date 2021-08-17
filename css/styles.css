@@ -96,8 +96,21 @@ a {
 }
 
 .title {
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 2rem;
+}
+
+.squareDance {
+    margin-top: 150px;
+}
+
+.square {
+    width: 30vw;
+    height: 30vw;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: var(--blue);
+    margin-right: 20px;
 }
 
 @media (max-width: 949px) {
