@@ -1,14 +1,14 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
 }
-b{
+b {
     font-weight: 700;
 }
 
 /* override link color */
-a{
+a {
     color: inherit;
 }
 
@@ -39,11 +39,11 @@ a{
 }
 
 /* flex settings */
-.flexRow{
+.flexRow {
     display: flex;
     flex-direction: row;
 }
-.flexCol{
+.flexCol {
     display: flex;
     flex-direction: column;
 }
@@ -51,24 +51,9 @@ a{
 .container{
   width: 100vw;
   height: 100vh;
-  text-align: center; 
-  align-items: center;
+  /* text-align: center; 
+  align-items: center; */
 }
-
-/* .box {
-    width: 80vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background: #000000bb;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    align-items: center;
-    text-align: center;
-    padding: 10px 30px;
-} */
 
 .box {
     width: 80vw;
@@ -83,14 +68,25 @@ a{
     padding: 10px 30px;
 }
 
-.title{
-    font-size: 2rem;
-    margin-top: 2%;
+.title {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50px;
+    right: 50px;
 }
 
-.menu{
-    width: 80vw;
+.menu {
+    width: auto;
     height: auto;
-    justify-content: space-around;
     font-size: 1.5rem;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.menuItem {
+    margin-right: 50px;
+}
+
+@media (max-width: 849px) {
+    
 }
