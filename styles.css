@@ -79,6 +79,7 @@ a {
     width: auto;
     height: auto;
     font-size: 1.5rem;
+    position: absolute;
     top: 50px;
     left: 50px;
 }
