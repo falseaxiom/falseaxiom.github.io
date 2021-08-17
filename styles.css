@@ -79,8 +79,8 @@ a {
     width: auto;
     height: auto;
     font-size: 1.5rem;
-    margin-top: 50px;
-    margin-left: 50px;
+    top: 50px;
+    left: 50px;
 }
 
 .menuItem {
@@ -88,5 +88,5 @@ a {
 }
 
 @media (max-width: 849px) {
-    
+
 }
