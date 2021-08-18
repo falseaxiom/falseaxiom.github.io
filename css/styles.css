@@ -79,6 +79,8 @@ a {
     height: auto;
     font-size: 1.5rem;
     margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
 }
 .name:hover {
     cursor: pointer;
@@ -113,6 +115,7 @@ a {
     max-height: 500px;
     background-color: var(--blue);
     margin-right: 20px;
+    overflow: hidden;
 }
 
 /* .box {
