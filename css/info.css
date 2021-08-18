@@ -1,0 +1,36 @@
+.infobox {
+    width: 90vw;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.infodesc {
+    flex: 1;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.pfpContainer {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+@media (max-width: 999px) {
+    .infobox {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .pfpContainer {
+        align-self: center;
+        max-width: 600px;
+        max-height: 600px;
+    }
+    .infodesc {
+        align-self: center;
+        max-width: 600px;
+        margin-right: 0px;
+    }
+}

@@ -2,14 +2,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
+    color: var(--dblue);
 }
 b {
     font-weight: 700;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* override link color */
 a {
-    color: inherit;
+    color: var(--blue);
 }
 
 /* color vars */
@@ -48,14 +53,69 @@ a {
     flex-direction: column;
 }
 
-.container{
-  width: 100vw;
-  height: auto;
-  text-align: center; 
-  align-items: center;
+/* nav settings */
+.navbar {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.menu {
+    width: auto;
+    height: 40px;
+    font-size: 1.5rem;
+}
+.menuItem {
+    margin-right: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+.menuItem:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--blue);
+}
+.name {
+    height: auto;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+.name:hover {
+    cursor: pointer;
+}
+.logoContainer {
+    max-width: 30px;
+    max-height: 30px;
+}
+.logoContainer:hover {
+    cursor: pointer;
 }
 
-.box {
+/* common page elements */
+.title {
+    margin-top: 100px;
+    font-size: 2rem;
+}
+.container {
+    width: 100vw;
+    height: auto;
+    text-align: center; 
+    align-items: center;
+}
+.squareDance {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.square {
+    width: 30vw;
+    height: 30vw;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: var(--blue);
+    margin-right: 20px;
+}
+
+/* .box {
     width: 80vw;
     height: auto;
     display: flex;
@@ -66,53 +126,9 @@ a {
     align-items: center;
     text-align: center;
     padding: 10px 30px;
-}
+} */
 
-.navbar {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    justify-content: space-between;
-}
-
-.menu {
-    width: auto;
-    height: 40px;
-    font-size: 1.5rem;
-}
-
-.menuItem {
-    margin-right: 30px;
-}
-
-.name {
-    font-size: 1.5rem;
-    margin-right: 15px;
-}
-
-.logoContainer {
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.title {
-    margin-top: 150px;
-    font-size: 2rem;
-}
-
-.squareDance {
-    margin-top: 150px;
-}
-
-.square {
-    width: 30vw;
-    height: 30vw;
-    max-width: 500px;
-    max-height: 500px;
-    background-color: var(--blue);
-    margin-right: 20px;
-}
-
+/* for small browsers or mobile */
 @media (max-width: 949px) {
 
 }
