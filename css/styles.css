@@ -7,17 +7,15 @@ body {
 b {
     font-weight: 700;
 }
+a {
+    color: var(--blue);
+}
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
-/* override link color */
-a {
-    color: var(--blue);
-}
-
-/* color vars */
+/* COLOR VARIABLES */
 :root {  
     /* regular colors */
     --red: #FF4B4B;
@@ -43,7 +41,7 @@ a {
     --fgrey: #A1A1A1;
 }
 
-/* flex settings */
+/* FLEX SETTINGS */
 .flexRow {
     display: flex;
     flex-direction: row;
@@ -53,7 +51,7 @@ a {
     flex-direction: column;
 }
 
-/* nav settings */
+/* HEADER */
 .navbar {
     margin-top: 50px;
     margin-left: 50px;
@@ -93,7 +91,7 @@ a {
     cursor: pointer;
 }
 
-/* common page elements */
+/* COMMON ELEMENTS */
 .title {
     margin-top: 100px;
     font-size: 2rem;
@@ -116,6 +114,31 @@ a {
     background-color: var(--blue);
     margin-right: 20px;
     overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+.imgOverlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+}
+.imgOverlay p {
+    position: absolute;
+    width: 100%;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: white;
+}
+.imgOverlay:hover {
+    background-color: var(--blue);
+    opacity: 1;
+    transition: opacity .5s;
+    z-index: 0;
 }
 
 /* .box {
@@ -131,7 +154,7 @@ a {
     padding: 10px 30px;
 } */
 
-/* for small browsers or mobile */
+/* MOBILE RESPONSIVE */
 @media (max-width: 949px) {
 
 }
