@@ -9,31 +9,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
     </head>
     <body>
-        <div class="flexRow navbar">
-            <div class="menu">
-                <a class="menuItem" href="./index.html">home</a>
-                <a class="menuItem" href="./info.html">info</a>
-                <a class="menuItem" href="./code.html">code</a>
-                <a class="menuItem" href="./draw.html">draw</a>
-                <a class="menuItem" href="./word.html">word</a>
-                <a class="menuItem" href="./misc.html">misc</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-            <div class="flexRow">
-                <a class="name" href="./index.html">monique legaspi</a>
-                <div class="logoContainer"><img class="fish" src="imgs/fish.png" alt="fish icon" width="100%" height="100%"></div>                
-            </div>
-        </div>
-        <div class="flexRow" id="hamburgerMenu">
-            <a class="menuItem" href="./index.html" >home</a>
-            <a class="menuItem" href="./info.html" >info</a>
-            <a class="menuItem" href="./code.html" >code</a>
-            <a class="menuItem" href="./draw.html" >draw</a>
-            <a class="menuItem" href="./word.html" >word</a>
-            <a class="menuItem" href="./misc.html" style="margin: 0;">misc</a>
-        </div>
+        <div id="header"></div>
         <div class="flexCol container">
             <span class="title">cs projects</span>
             <div class="flexRow squareDance">
@@ -43,7 +19,16 @@
             </div>
         </div>
     </body>
-    <script src="js/header.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#header").load("common/header.html"); 
+        });
+    </script>
     <script>
     </script>
 </html>
