@@ -15,7 +15,7 @@ img {
     max-height: 100%;
 }
 
-/* COLOR VARIABLES */
+/***** VARIABLES *****/
 :root {  
     /* regular colors */
     --red: #FF4B4B;
@@ -39,9 +39,13 @@ img {
     --grey: #A5A5A5;
     --dgrey: black;
     --fgrey: #A1A1A1;
+
+    /* font sizes */
+    --subtitle: 1.5rem;
+    --title: 2rem;
 }
 
-/* FLEX SETTINGS */
+/***** FLEX SETTINGS *****/
 .flexRow {
     display: flex;
     flex-direction: row;
@@ -51,7 +55,7 @@ img {
     flex-direction: column;
 }
 
-/* HEADER */
+/***** HEADER *****/
 .navbar {
     margin-top: 50px;
     margin-left: 50px;
@@ -61,7 +65,7 @@ img {
 .menu {
     width: auto;
     height: 40px;
-    font-size: 1.5rem;
+    font-size: var(--subtitle);
 }
 .menuItem {
     margin-right: 30px;
@@ -73,9 +77,22 @@ img {
     color: white;
     background-color: var(--blue);
 }
+.icon {
+    display: none;
+}
+#hamburgerMenu {
+    display: none;
+    position: absolute;
+    left: 50px;
+    margin-top: 10px;
+    outline: 1px solid blue;
+    background: white;
+    padding: 20px;
+    transform: opacity .5s;
+}
 .name {
     height: auto;
-    font-size: 1.5rem;
+    font-size: var(--subtitle);
     margin-right: 15px;
     text-decoration: none;
     color: inherit;
@@ -91,10 +108,10 @@ img {
     cursor: pointer;
 }
 
-/* COMMON ELEMENTS */
+/***** COMMON ELEMENTS *****/
 .title {
     margin-top: 100px;
-    font-size: 2rem;
+    font-size: var(--title);
 }
 .container {
     width: 100vw;
@@ -131,7 +148,7 @@ img {
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: var(--subtitle);
     color: white;
 }
 .imgOverlay:hover {
@@ -154,7 +171,50 @@ img {
     padding: 10px 30px;
 } */
 
-/* MOBILE RESPONSIVE */
-@media (max-width: 949px) {
+/***** MOBILE RESPONSIVE *****/
+@media screen and (max-width: 999px) {
+    /* bigger font */
+    body {
+        font-size: 2rem;
+    }
+    :root {
+        --subtitle: 2.5rem;
+        --title: 3rem;
+    }
 
+    /* hamburger nav */
+    .navbar {
+        height: auto;
+    }
+    .menu {
+        display: none;
+    }
+    .icon {
+        display: block;
+        margin-top: 6px;
+    }
+    .name {
+        margin-right: 25px;
+    }
+    .logoContainer {
+        width: 50px;
+        height: 50px;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    img.fish {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .squareDance {
+        flex-direction: column;
+    }
+    .square {
+        width: 80vw;
+        height: 80vw;
+        max-width: 80vw;
+        max-height: 80vw;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
 }

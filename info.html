@@ -4,6 +4,7 @@
         <title>monique legaspi</title>
         <link rel="stylesheet" href="css/styles.css"/>
         <link rel="stylesheet" href="css/info.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
@@ -18,20 +19,31 @@
                 <a class="menuItem" href="./word.html">word</a>
                 <a class="menuItem" href="./misc.html">misc</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
             <div class="flexRow">
                 <a class="name" href="./index.html">monique legaspi</a>
-                <div class="logoContainer"><img src="imgs/fish.png" alt="fish icon" width="30px" height="30px"></div>                
+                <div class="logoContainer"><img class="fish" src="imgs/fish.png" alt="fish icon" width="100%" height="100%"></div>                
             </div>
+        </div>
+        <div class="flexRow" id="hamburgerMenu">
+            <a class="menuItem" href="./index.html" >home</a>
+            <a class="menuItem" href="./info.html" >info</a>
+            <a class="menuItem" href="./code.html" >code</a>
+            <a class="menuItem" href="./draw.html" >draw</a>
+            <a class="menuItem" href="./word.html" >word</a>
+            <a class="menuItem" href="./misc.html" style="margin: 0;">misc</a>
         </div>
         <div class="flexRow infobox">
             <div class="flexCol infodesc">
-                <span style="font-size: 2rem;">monique legaspi</span>
-                <span style="font-size: 1.5rem;">princeton, nj | <a href="mailto: mlegaspi@princeton.edu">mlegaspi@princeton.edu</a></span>
+                <span style="font-size: var(--title);">monique legaspi</span>
+                <span style="font-size: var(--subtitle);">princeton, nj | <a href="mailto: mlegaspi@princeton.edu">mlegaspi@princeton.edu</a></span>
                 <br/><br/>
                 <span>
                     Hello! I’m a senior at Princeton University, studying Computer Science with a minor in Visual Arts. I’m interested in front-end design, game development, digital animation, and experimental modes of storytelling.
                     <br/><br/>
-                    You can find me at 
+                    You can find me on 
                     <a href="https://www.linkedin.com/in/mleg/" target="_blank">LinkedIn</a>,
                     <a href="https://www.instagram.com/falseaxiom/" target="_blank">Instagram</a>,
                     and 
@@ -44,6 +56,7 @@
             <div class="pfpContainer"><img src="imgs/pfp.png" ></div>
         </div>
     </body>
+    <script src="js/header.js"></script>
     <script>
     </script>
 </html>
