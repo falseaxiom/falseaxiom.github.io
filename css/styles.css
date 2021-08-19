@@ -120,14 +120,17 @@ img {
     align-items: center;
 }
 .squareDance {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 100px;
+    width: calc(90vw + 60px);
+    max-width: 1560px;
 }
 .square {
     width: 30vw;
     height: 30vw;
     max-width: 500px;
     max-height: 500px;
-    background-color: var(--blue);
     margin: 10px;
     overflow: hidden;
     display: inline-block;
@@ -206,13 +209,13 @@ img {
     }
     .squareDance {
         flex-direction: column;
+        width: calc(80vw + 50px);
     }
     .square {
         width: 80vw;
         height: 80vw;
         max-width: 80vw;
         max-height: 80vw;
-        margin-right: 0px;
-        margin-bottom: 50px;
+        margin: 25px;
     }
 }
