@@ -59,3 +59,7 @@
     background:  url("../imgs/art/21-7\ 4/1.jpg") center no-repeat;
     background-size: cover;
 }
+
+@media screen and (max-width: 999px) {
+    
+}
