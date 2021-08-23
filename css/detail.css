@@ -2,10 +2,11 @@
 .boxy {
     margin-top: 50px;
     width: calc(100vw - 100px);
+    max-width: 1200px;
 }
 .bigPics {
     width: 50vw;
-    max-width: 50vw;
+    max-width: 50%;
     height: auto;
 }
 .bigPic {
