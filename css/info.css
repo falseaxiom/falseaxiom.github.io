@@ -25,12 +25,14 @@
     }
     .pfpContainer {
         align-self: center;
-        max-width: 600px;
-        max-height: 600px;
+        width: 80vw;
+        max-width: 80vw;
+        max-height: 80vw;
     }
     .infodesc {
         align-self: center;
-        max-width: 600px;
+        width: 80vw;
+        max-width: 80vw;
         margin-right: 0px;
     }
 }
