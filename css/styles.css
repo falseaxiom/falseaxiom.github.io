@@ -83,7 +83,7 @@ img {
 #hamburgerMenu {
     display: none;
     position: absolute;
-    left: 50px;
+    left: 10%;
     margin-top: 10px;
     outline: 1px solid blue;
     background: white;
@@ -221,6 +221,9 @@ img {
     /* hamburger nav */
     .navbar {
         height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10vw;
     }
     .menu {
         display: none;

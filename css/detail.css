@@ -1,3 +1,37 @@
+/***** DRAW SETTINGS *****/
+.boxy {
+    margin-top: 50px;
+    width: calc(100vw - 100px);
+}
+.bigPics {
+    width: 50vw;
+    max-width: 50vw;
+    height: auto;
+}
+.bigPic {
+    margin: 10px 0px;
+}
+.desc {
+    flex: 1;
+    text-align: left;
+    margin-right: 50px;
+}
+
 @media screen and (max-width: 999px) {
-    
+    .boxy {
+        flex-direction: column;
+        width: 80vw;
+        margin-top: 100px;
+    }
+    .bigPics {
+        width: 100%;
+        max-width: 100%;
+    }
+    .bigPic {
+        margin: 20px 0px;
+    }
+    .desc {
+        margin-right: none;
+        margin-bottom: 40px;
+    }
 }
