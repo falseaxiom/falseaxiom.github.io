@@ -20,9 +20,16 @@
         crossorigin="anonymous">
     </script>
     <script> 
+        // js - grab piece type, number
+        let a = window.location.href.split('?');
+        let b = a[1].split('=');
+        let type = b[0];
+        let num = b[1];
+
+        // jquery
         $(function(){
-            $("#header").load("common/header.html"); 
-            $("#desc").load("detail-desc/drawdetail.html #15")
+            $("#header").load("common/header.html");
+            $("#desc").load("detail-desc/" + type + "detail.html #" + num);
             $("#footer").load("common/footer.html"); 
         });
     </script>
