@@ -1,4 +1,8 @@
 .word1 {
+    background:  url("../imgs/art/21-2/0 - cover.PNG") center no-repeat;
+    background-size: cover;
+}
+.word2 {
     background:  url("../imgs/index/bite me.png") center no-repeat;
     background-size: cover;
 }

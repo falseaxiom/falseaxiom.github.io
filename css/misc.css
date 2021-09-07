@@ -1,0 +1,8 @@
+.circle {
+    /* border-radius: 1000px; */
+    cursor: move;
+}
+
+.drag {
+    cursor: move;
+}

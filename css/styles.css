@@ -245,6 +245,8 @@ img {
         max-width: 50px;
         max-height: 50px;
     }
+
+    /* square widgets go column */
     .squareDance {
         flex-direction: column;
         width: calc(80vw + 50px);

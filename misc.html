@@ -12,12 +12,18 @@
     <body>
         <div id="header"></div>
         <div class="flexCol container">
-            <span class="title">miscellaneous :~)</span>
-            <span>(work in progress!)</span>
-            <div class="flexRow squareDance">
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square" style="margin-right: 0px"></div>
+            <span class="title drag" title="drag me!">miscellaneous :~)</span>
+            <span class="drag" style="margin-top: 20px" title="drag me!">[inspo + hobbies!]</span>
+            <div class="squareDance" style="margin-top: 60px">
+                <div class="square circle drag" id="drag1" style="background: var(--red)" title="drag me!"><a class="squareButton" href="https://neal.fun/deep-sea/" target="_blank">
+                    <div class="imgOverlay circle" style="background: var(--red)"><p><b>𓆞 𓆝 𓆟</b></p></div>
+                </a></div>
+                <div class="square circle drag" id="drag2" style="background: var(--yellow)" title="drag me!"><a class="squareButton" href="https://vimeo.com/208812809" target="_blank">
+                    <div class="imgOverlay circle" style="background: var(--yellow)"><p><b>✦ ✦ ✦</b></p></div>
+                </a></div>
+                <div class="square circle drag" id="drag3" style="background: var(--green)" title="why r u dragging me :("><a class="squareButton" href="https://open.spotify.com/playlist/5RdhX76W9bvaFWKTycJh94?si=73fd91582d4c4455" target="_blank">
+                    <div class="imgOverlay circle" style="background: var(--green)"><p><b>𓆏 𓆏 𓆏</b></p></div>
+                </a></div>
             </div>
         </div>
         <div id="footer"></div>
@@ -32,7 +38,15 @@
             $("#header").load("common/header.html"); 
             $("#footer").load("common/footer.html"); 
         });
-    </script> 
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
+        $(function() {
+            $(".drag").draggable();
+            // $("#drag1").draggable();
+            // $("#drag2").draggable();
+            // $("#drag3").draggable();
+        });
     </script>
 </html>
