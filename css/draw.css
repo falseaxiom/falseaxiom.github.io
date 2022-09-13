@@ -63,6 +63,10 @@
     background:  url("../imgs/art/21-8.png") center no-repeat;
     background-size: cover;
 }
+.draw17 {
+    background:  url("../imgs/art/22-4/3.png") center no-repeat;
+    background-size: cover;
+}
 
 @media screen and (max-width: 999px) {
     
