@@ -104,6 +104,10 @@
     background:  url("../imgs/art/23-7.png") center no-repeat;
     background-size: cover;
 }
+.draw27 {
+    background:  url("../imgs/art/24-2/render2.png") center no-repeat;
+    background-size: cover;
+}
 
 @media screen and (max-width: 999px) {
     

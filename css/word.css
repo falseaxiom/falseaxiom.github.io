@@ -1,12 +1,33 @@
 .word1 {
-    background:  url("../imgs/write/21-2.PNG") center no-repeat;
+    background:  url("../imgs/write/troupe1.jpeg") center no-repeat;
     background-size: cover;
 }
 .word2 {
-    background:  url("../imgs/write/21-4.png") center no-repeat;
+    background:  url("../imgs/write/projection.png") center no-repeat;
     background-size: cover;
 }
 .word3 {
+    /* background:  url("../imgs/write/angel.png") center no-repeat; */
+    background: black;
+    background-size: cover;
+}
+.word4 {
+    background:  url("../imgs/write/solacepromo.png") center no-repeat;
+    background-size: cover;
+}
+.word5 {
+    background:  url("../imgs/write/troupe3.jpeg") center no-repeat;
+    background-size: cover;
+}
+.word6 {
+    background:  url("../imgs/write/21-2.png") center no-repeat;
+    background-size: cover;
+}
+.word7 {
+    background:  url("../imgs/write/21-4.png") center no-repeat;
+    background-size: cover;
+}
+.word8 {
     background:  url("../imgs/write/angel.png") center no-repeat;
     background-size: cover;
 }

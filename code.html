@@ -13,61 +13,70 @@
         <div id="header"></div>
         <div class="flexCol container">
             <span class="title">cs projects</span>
+            <div id="catButtons">
+                <button class="cat active" onclick="expose(this, 'square')">everything</button>
+                <button class="cat" onclick="expose(this, 'ai')">ai</button>
+                <button class="cat" onclick="expose(this, 'an')">animation</button>
+                <button class="cat" onclick="expose(this, 'at')">artist tool</button>
+                <button class="cat" onclick="expose(this, 'cg')">graphics</button>
+                <button class="cat" onclick="expose(this, 'vg')">video game</button>
+                <button class="cat" onclick="expose(this, 'xr')">vr/ar</button>
+                <button class="cat" onclick="expose(this, 'wd')">webdev</button>
+            </div>
             <form action="detail.html">
                 <div class="squareDance">
-                    <div class="square code18"><button class="squareButton" type="submit" name="code" value="18" onclick="location.href = './detail.html';">
+                    <div class="square code18 ai"><button class="squareButton" type="submit" name="code" value="18" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>CGTA</p></div>
                     </button></div>
-                    <div class="square code17"><button class="squareButton" type="submit" name="code" value="17" onclick="location.href = './detail.html';">
+                    <div class="square code17 wd"><button class="squareButton" type="submit" name="code" value="17" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Is It Open?</p></div>
                     </button></div>
-                    <div class="square code16"><button class="squareButton" type="submit" name="code" value="16" onclick="location.href = './detail.html';">
+                    <div class="square code16 cg at"><button class="squareButton" type="submit" name="code" value="16" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Knit-It</p></div>
                     </button></div>
-                    <div class="square code15"><button class="squareButton" type="submit" name="code" value="15" onclick="location.href = './detail.html';">
+                    <div class="square code15 cg vg xr"><button class="squareButton" type="submit" name="code" value="15" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>PaddleBall</p></div>
                     </button></div>
-                    <div class="square code14"><button class="squareButton" type="submit" name="code" value="14" onclick="location.href = './detail.html';">
+                    <div class="square code14 cg vg"><button class="squareButton" type="submit" name="code" value="14" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>FLY, ICARUS</p></div>
                     </button></div>
-                    <div class="square code13"><button class="squareButton" type="submit" name="code" value="13" onclick="location.href = './detail.html';">
+                    <div class="square code13 cg"><button class="squareButton" type="submit" name="code" value="13" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Mini Minecraft</p></div>
                     </button></div>
-                    <div class="square code12"><button class="squareButton" type="submit" name="code" value="12" onclick="location.href = './detail.html';">
+                    <div class="square code12 cg an"><button class="squareButton" type="submit" name="code" value="12" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Mocap Blend</p></div>
                     </button></div>
-                    <div class="square code11"><button class="squareButton" type="submit" name="code" value="11" onclick="location.href = './detail.html';">
+                    <div class="square code11 cg at"><button class="squareButton" type="submit" name="code" value="11" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Mini Maya</p></div>
                     </button></div>
-                    <div class="square code10"><button class="squareButton" type="submit" name="code" value="10" onclick="location.href = './detail.html';">
+                    <div class="square code10 cg at"><button class="squareButton" type="submit" name="code" value="10" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>OpenGL Fun</p></div>
                     </button></div>
-                    <div class="square code9"><button class="squareButton" type="submit" name="code" value="9" onclick="location.href = './detail.html';">
+                    <div class="square code9 cg"><button class="squareButton" type="submit" name="code" value="9" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Scene Graph</p></div>
                     </button></div>
-
-                    <div class="square code8"><button class="squareButton" type="submit" name="code" value="8" onclick="location.href = './detail.html';">
+                    <div class="square code8 wd"><button class="squareButton" type="submit" name="code" value="8" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>monique-link</p></div>
                     </button></div>
-                    <div class="square code7"><button class="squareButton" type="submit" name="code" value="7" onclick="location.href = './detail.html';">
+                    <div class="square code7 vg wd"><button class="squareButton" type="submit" name="code" value="7" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>left unsaid</p></div>
                     </button></div>
-                    <div class="square code6"><button class="squareButton" type="submit" name="code" value="6" onclick="location.href = './detail.html';">
+                    <div class="square code6 vg wd"><button class="squareButton" type="submit" name="code" value="6" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>BUGCATCHER!</p></div>
                     </button></div>
-                    <div class="square code5"><button class="squareButton" type="submit" name="code" value="5" onclick="location.href = './detail.html';">
+                    <div class="square code5 wd"><button class="squareButton" type="submit" name="code" value="5" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>MBUSA Bot</p></div>
                     </button></div>
-                    <div class="square code4"><button class="squareButton" type="submit" name="code" value="4" onclick="location.href = './detail.html';">
+                    <div class="square code4 vg an"><button class="squareButton" type="submit" name="code" value="4" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>KING OF THE TOWN</p></div>
                     </button></div>
-                    <div class="square code3"><button class="squareButton" type="submit" name="code" value="3" onclick="location.href = './detail.html';">
+                    <div class="square code3 cg vg"><button class="squareButton" type="submit" name="code" value="3" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Hello, World!</p></div>
                     </button></div>
-                    <div class="square code2"><button class="squareButton" type="submit" name="code" value="2" onclick="location.href = './detail.html';">
+                    <div class="square code2 vg wd"><button class="squareButton" type="submit" name="code" value="2" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>ex•qui•site•cor•pus</p></div>
                     </button></div>
-                    <div class="square code1"><button class="squareButton" type="submit" name="code" value="1" onclick="location.href = './detail.html';">
+                    <div class="square code1 wd"><button class="squareButton" type="submit" name="code" value="1" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Tiger Cookbook</p></div>
                     </button></div>
                 </div>
@@ -86,6 +95,5 @@
             $("#footer").load("common/footer.html"); 
         });
     </script>
-    <script>
-    </script>
+    <script src="./js/cat.js"></script>
 </html>

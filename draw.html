@@ -12,86 +12,101 @@
     <body>
         <div id="header"></div>
         <div class="flexCol container">
-            <span class="title">art, animation, design</span>
+            <span class="title">creative pursuits</span>
+            <div id="catButtons">
+                <button class="cat active" onclick="expose(this, 'square')">everything</button>
+                <button class="cat" onclick="expose(this, '2d')">2d</button>
+                <button class="cat" onclick="expose(this, '3d')">3d</button>
+                <button class="cat" onclick="expose(this, 'an')">animation</button>
+                <button class="cat" onclick="expose(this, 'co')">comic</button>
+                <button class="cat" onclick="expose(this, 'ds')">design</button>
+                <button class="cat" onclick="expose(this, 'fi')">film</button>
+                <button class="cat" onclick="expose(this, 'vg')">game</button>
+                <button class="cat" onclick="expose(this, 'il')">illustration</button>
+                <button class="cat" onclick="expose(this, 'in')">installation</button>
+            </div>
             <form action="detail.html">
                 <div class="squareDance">
-                    <div class="square draw26"><button class="squareButton" type="submit" name="draw" value="26" onclick="location.href = './detail.html';">
+                    <div class="square draw27 3d"><button class="squareButton" type="submit" name="draw" value="27" onclick="location.href = './detail.html';">
+                        <div class="imgOverlay"><p>New Grad</p></div>
+                    </button></div>
+                    <div class="square draw26 2d ds"><button class="squareButton" type="submit" name="draw" value="26" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Penn Band Camp Shirt</p></div>
                     </button></div>
-                    <div class="square draw25"><button class="squareButton" type="submit" name="draw" value="25" onclick="location.href = './detail.html';">
+                    <div class="square draw25 2d ds"><button class="squareButton" type="submit" name="draw" value="25" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Spring Fling Tank</p></div>
                     </button></div>
-                    <div class="square draw24"><button class="squareButton" type="submit" name="draw" value="24" onclick="location.href = './detail.html';">
+                    <div class="square draw24 2d vg"><button class="squareButton" type="submit" name="draw" value="24" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>FLY, ICARUS</p></div>
                     </button></div>
-                    <div class="square draw23"><button class="squareButton" type="submit" name="draw" value="23" onclick="location.href = './detail.html';">
+                    <div class="square draw23 ds vg"><button class="squareButton" type="submit" name="draw" value="23" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>10POINT</p></div>
                     </button></div>
-                    <div class="square draw22"><button class="squareButton" type="submit" name="draw" value="22" onclick="location.href = './detail.html';">
+                    <div class="square draw22 fi"><button class="squareButton" type="submit" name="draw" value="22" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>MERGE CONFLICT</p></div>
                     </button></div>
-                    <div class="square draw21"><button class="squareButton" type="submit" name="draw" value="21" onclick="location.href = './detail.html';">
+                    <div class="square draw21 3d"><button class="squareButton" type="submit" name="draw" value="21" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>3D Modeling: Character</p></div>
                     </button></div>
-                    <div class="square draw20"><button class="squareButton" type="submit" name="draw" value="20" onclick="location.href = './detail.html';">
+                    <div class="square draw20 3d"><button class="squareButton" type="submit" name="draw" value="20" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>3D Modeling: Environment</p></div>
                     </button></div>
-                    <div class="square draw19"><button class="squareButton" type="submit" name="draw" value="19" onclick="location.href = './detail.html';">
+                    <div class="square draw19 fi"><button class="squareButton" type="submit" name="draw" value="19" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>GAME DAY!!!</p></div>
                     </button></div>
-                    <div class="square draw18"><button class="squareButton" type="submit" name="draw" value="18" onclick="location.href = './detail.html';">
+                    <div class="square draw18 3d"><button class="squareButton" type="submit" name="draw" value="18" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>3D Modeling: Tool</p></div>
                     </button></div>
 
-                    <div class="square draw17"><button class="squareButton" type="submit" name="draw" value="17" onclick="location.href = './detail.html';">
+                    <div class="square draw17 2d vg in"><button class="squareButton" type="submit" name="draw" value="17" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>left unsaid</p></div>
                     </button></div>
-                    <div class="square draw16"><button class="squareButton" type="submit" name="draw" value="16" onclick="location.href = './detail.html';">
+                    <div class="square draw16 2d il"><button class="squareButton" type="submit" name="draw" value="16" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>big star</p></div>
                     </button></div>
-                    <div class="square draw15"><button class="squareButton" type="submit" name="draw" value="15" onclick="location.href = './detail.html';">
+                    <div class="square draw15 2d il"><button class="squareButton" type="submit" name="draw" value="15" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>ROCK BAND!!</p></div>
                     </button></div>
-                    <div class="square draw14"><button class="squareButton" type="submit" name="draw" value="14" onclick="location.href = './detail.html';">
+                    <div class="square draw14 2d il"><button class="squareButton" type="submit" name="draw" value="14" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>stargazing</p></div>
                     </button></div>
-                    <div class="square draw13"><button class="squareButton" type="submit" name="draw" value="13" onclick="location.href = './detail.html';">
+                    <div class="square draw13 2d il"><button class="squareButton" type="submit" name="draw" value="13" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>skater girl</p></div>
                     </button></div>
-                    <div class="square draw12"><button class="squareButton" type="submit" name="draw" value="12" onclick="location.href = './detail.html';">
+                    <div class="square draw12 2d il"><button class="squareButton" type="submit" name="draw" value="12" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>firefighter</p></div>
                     </button></div>
-                    <div class="square draw11"><button class="squareButton" type="submit" name="draw" value="11" onclick="location.href = './detail.html';">
+                    <div class="square draw11 2d il"><button class="squareButton" type="submit" name="draw" value="11" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>FRUIT LOVE</p></div>
                     </button></div>
-                    <div class="square draw10"><button class="squareButton" type="submit" name="draw" value="10" onclick="location.href = './detail.html';">
+                    <div class="square draw10 2d an"><button class="squareButton" type="submit" name="draw" value="10" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>OR/ange</p></div>
                     </button></div>
-                    <div class="square draw9"><button class="squareButton" type="submit" name="draw" value="9" onclick="location.href = './detail.html';">
+                    <div class="square draw9 2d co"><button class="squareButton" type="submit" name="draw" value="9" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>LYCHGATE</p></div>
                     </button></div>
-                    <div class="square draw8"><button class="squareButton" type="submit" name="draw" value="8" onclick="location.href = './detail.html';">
+                    <div class="square draw8 vg ds"><button class="squareButton" type="submit" name="draw" value="8" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>52 pickup</p></div>
                     </button></div>
-                    <div class="square draw7"><button class="squareButton" type="submit" name="draw" value="7" onclick="location.href = './detail.html';">
+                    <div class="square draw7 2d il"><button class="squareButton" type="submit" name="draw" value="7" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>conceptober</p></div>
                     </button></div>
-                    <div class="square draw6"><button class="squareButton" type="submit" name="draw" value="6" onclick="location.href = './detail.html';">
+                    <div class="square draw6 2d il"><button class="squareButton" type="submit" name="draw" value="6" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>sailor sisters</p></div>
                     </button></div>
-                    <div class="square draw5"><button class="squareButton" type="submit" name="draw" value="5" onclick="location.href = './detail.html';">
+                    <div class="square draw5 2d il"><button class="squareButton" type="submit" name="draw" value="5" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>pink couple</p></div>
                     </button></div>
-                    <div class="square draw4"><button class="squareButton" type="submit" name="draw" value="4" onclick="location.href = './detail.html';">
+                    <div class="square draw4 2d co"><button class="squareButton" type="submit" name="draw" value="4" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>ABSTRACTION...</p></div>
                     </button></div>
-                    <div class="square draw3"><button class="squareButton" type="submit" name="draw" value="3" onclick="location.href = './detail.html';">
+                    <div class="square draw3 2d ds"><button class="squareButton" type="submit" name="draw" value="3" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>Time Travel</p></div>
                     </button></div>
-                    <div class="square draw2"><button class="squareButton" type="submit" name="draw" value="2" onclick="location.href = './detail.html';">
+                    <div class="square draw2 2d an"><button class="squareButton" type="submit" name="draw" value="2" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>gesundheit!</p></div>
                     </button></div>
-                    <div class="square draw1"><button class="squareButton" type="submit" name="draw" value="1" onclick="location.href = './detail.html';">
+                    <div class="square draw1 2d ds"><button class="squareButton" type="submit" name="draw" value="1" onclick="location.href = './detail.html';">
                         <div class="imgOverlay"><p>PUB shirt</p></div>
                     </button></div>
                 </div>
@@ -120,6 +135,5 @@
             $("#footer").load("common/footer.html"); 
         });
     </script> 
-    <script>
-    </script>
+    <script src="./js/cat.js"></script>
 </html>

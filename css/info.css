@@ -8,9 +8,9 @@
 
 .infodesc {
     flex: 1;
-    text-align: right;
+    /* text-align: right; */
     margin-right: 50px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .pfpContainer {
@@ -30,6 +30,7 @@
         max-height: 80vw;
     }
     .infodesc {
+        margin-top: 2rem;
         align-self: center;
         width: 80vw;
         max-width: 80vw;

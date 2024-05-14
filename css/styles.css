@@ -14,6 +14,20 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+li {
+    padding-left: 5ch;
+    text-indent: -5ch;
+}
+li:before {
+    content: "+";
+    padding-right: 1ch;
+    padding-left: 2ch;
+}
 
 /***** VARIABLES *****/
 :root {  
@@ -71,6 +85,8 @@ img {
     margin-right: 30px;
     text-decoration: none;
     color: inherit;
+    background-color: white;
+    transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 .menuItem:hover {
     cursor: pointer;
@@ -122,7 +138,7 @@ img {
 .squareDance {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 40px;
     width: calc(90vw + 60px);
     max-width: 1560px;
 }
@@ -150,6 +166,8 @@ img {
     top: 0;
     left: 0;
     position: absolute;
+    transition: opacity 250ms ease-in-out;
+    background-color: var(--blue);
     opacity: 0;
 }
 .imgOverlay p {
@@ -162,10 +180,9 @@ img {
     color: white;
 }
 .imgOverlay:hover {
-    background-color: var(--blue);
     opacity: 1;
-    transition: opacity .5s;
     z-index: 0;
+    transition-delay: 0ms;
 }
 /* .box {
     width: 80vw;
@@ -205,6 +222,57 @@ img {
 .bigImgContainer {
     max-width: 80vw;
     max-height: 80vh;
+}
+.hidden {
+    display: none;
+}
+
+/***** CAT BUTTONS *****/
+#catButtons {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cat {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: white;
+
+    border-style: solid;
+    border-color: var(--dblue);
+    border-width: 1px;
+    border-radius: 1rem;
+
+    font-family: inherit;
+    color: var(--dblue);
+    font-size: inherit;
+
+    transition: border-color 250ms ease-in-out, color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+.cat:hover {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: white;
+    cursor: pointer;
+    transition: border-color 250ms ease-in-out, color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+.active {
+    background-color: var(--dblue);
+    border-color: var(--dblue);
+    color: white;
+    cursor: pointer;
+    transition: border-color 250ms ease-in-out, color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+.active:hover {
+    background-color: var(--dblue);
+    border-color: var(--dblue);
+    color: white;
+    cursor: pointer;
+    transition: border-color 250ms ease-in-out, color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 
 /***** MOBILE RESPONSIVE *****/

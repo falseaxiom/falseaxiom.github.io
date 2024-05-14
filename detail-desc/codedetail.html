@@ -55,15 +55,38 @@
         <br/>
         <br/>
         <span>
-            Maya Python plug-in for CIS 6600: Advanced Topics in Computer Graphics,
-            based on a
-            <a href="https://www.cs.cornell.edu/projects/stitchmeshes/" target="_blank">paper</a>
+            With a classmate, I created a Maya Python plug-in for CIS 6600: Advanced Topics in Computer Graphics,
+            based on the paper
+            "<a href="https://www.cs.cornell.edu/projects/stitchmeshes/" target="_blank">Stitch Meshes for Modeling Knitted Clothing with Yarn-level Detail</a>"
             by Yuksel et al.
-            Given a quad-based mesh, the user may populate the surface of the mesh with
-            stitch faces, resulting in a mesh that appears knitted.
-            Stitches may also be merged into a single valid mesh that can be animated.
+            Given a quad-based mesh, the user may populate the surface of the mesh with stitch faces, 
+            resulting in a mesh that appears knitted. 
+            Stitches may also be merged into a single valid mesh which can be animated.
+            <br/><br/>
+            This project demonstrates my strength with coding in Python,
+            as well as my ability to integrate multiple languages into one product
+            that requires the files to be in constant communication with one another.
+            I am also particularly proud of my writing in the <a href="../docs/dd knitit.pdf" target="_blank">design documentation</a>,
+            as we were determined to make it as accessible as possible for anyone who wanted to use the artist tool.
+            <br/><br/>
+            Knit-It! was a two-person project, with my partner and I working closely on most aspects of this tool.
+            However, the following parts were largely developed by me:
+            <ul>
+                <li>
+                    <b>User Interface:</b> I designed and programmed the plugin's menu window in Maya,
+                    allowing the user to easily change stitchface types and density.
+                </li>
+                <li>
+                    <b>Stitch Face Warping & Orientation:</b> Programmed stitch faces to warp themselves
+                    to match the shape of corresponding irregular quad faces on the reference mesh
+                    and to be in line with the up-vector of the mesh.
+                </li>
+                <li>
+                    <b>Python Translation:</b> Translated all of our code pertaining to stitch face manipulation
+                    from MEL into Python to allow for easier implementation of certain essential functions.
+                </li>
+            </ul>
         </span>
-        <br/>
         <span>Read design document <a href="../docs/dd knitit.pdf" target="_blank">here</a>.</span>
     </div>
     <div class="flexCol bigPics">
@@ -86,12 +109,36 @@
         <br/>
         <br/>
         <span>
-            Unity VR game prototype for CIS 5680: Game Design Practicum.
-            Player explores an abandoned spy facility, solving puzzles
-            using a magnetic paddleball in order to escape. Paddleball
-            can be used to retrieve objects, teleport, and swing between platforms.
+            As a final project for for CIS 5680: Game Design Practicum,
+            I worked with classmates in a team of three to create a Portal-like puzzle game prototype for VR in Unity.
+            The player explores an abandoned spy facility, solving puzzles using a magnetic paddle-ball in order to escape.
+            The paddleball can be used to retrieve objects, teleport, and swing between platforms.
+            <br/><br/>
+            This project shows off my level design skills (crucially, in a collaborative setting),
+            both in terms of functionality - the player gradually learns the different uses of their new paddle-ball tool
+            through solving the puzzles in each level - and overall visual clarity/consistency.
+            <br/><br/>
+            Though the project was intensely collaborative with all parties working in tandem on almost every feature,
+            I mostly took charge of the following:
+            <ul>
+                <li>
+                    <b>Visual Development:</b> Through multiple sketches and feedback from teammates,
+                    I determined the environment in which the game takes place and directed how levels should be crafted
+                    in line with our desired aesthetic.
+                </li>
+                <li>
+                    <b>Asset Design:</b> In a similar vein, I (with some tweaking from teammates) created assets in Unity and Maya
+                    that fit our retro-futuristic tech theme and clarified player goals.
+                </li>
+                <li>
+                    <b>Documentation:</b> I wrote much of our design document,
+                    detailing game functionality as well as our work process.
+                </li>
+                <li>
+                    <b>Code Organizing:</b> I fixed bugs of varying sizes, placed comments where necessary, and fitted our Unity asset files into proper folders for easy reference.
+                </li>
+            </ul>
         </span>
-        <br/>
         <span>Read design document <a href="../docs/dd paddleball.pdf" target="_blank">here</a>.</span>
     </div>
     <div class="flexCol bigPics">
@@ -114,14 +161,43 @@
         <br/>
         <br/>
         <span>
-            Unreal game prototype for CIS 5680: Game Design Practicum.
+            Unreal game prototype created in team of 2 for CIS 5680: Game Design Practicum.
             Side-scrolling survival game that utilizes mouse-scroll to propel
             player character into the air. Proximity to sun depletes HP,
             and collisions with sea monsters/ocean water kills instantly.
             Player may also collect power-ups to restore HP and increase speed.
+            <br/><br/>
+            This project showcases my skills with Unreal—particularly Blueprints,
+            upon which all functionality is built.
+            We also iterated upon the design multiple times to make it more accessible
+            (less confusing health system, easier to control player, etc.) to non-gamers,
+            and we worked tirelessly to make the design beautiful, appealing, and engaging.
+            <br/><br/>
+            This being a highly collaborative partner project allowed us to work closely on all aspects of the game,
+            though naturally each of us had our strengths. I spearheaded the following:
+            <ul>
+                <li>
+                    <b>Visual Development:</b> Through several concept illustrations,
+                    I designed the overall aesthetic of our game.
+                    Since our game conceit is based on the Greek myth of Icarus,
+                    I heavily referenced Greek pottery for shapes, colors, and monster types.
+                </li>
+                <li>
+                    <b>Asset Design:</b> I illustrated assets in line with the above guidelines.
+                </li>
+                <li>
+                    <b>Scroll Functionality:</b> I worked on Icarus's scroll-to-fly,
+                    tweaking the sensitivity over multiple iterations and
+                    experimenting with different functions in Blueprints.
+                </li>
+                <li>
+                    <b>Obstacle Movement:</b> Followed a similar process as above, changing how sea monsters
+                    move in and out of the water to provide a satisfying challenge for players.
+                </li>
+            </ul>
         </span>
-        <br/>
         <span>Read design document <a href="../docs/dd flyicarus.pdf" target="_blank">here</a>.</span>
+        <span>See visual development concepts <a href="detail.html?draw=24">here</a>.</span>
     </div>
     <div class="flexCol bigPics">
         <div class="vid">
@@ -140,9 +216,24 @@
         <br/>
         <br/>
         <span>
-            Simple Minecraft clone for CIS 5600: Interactive Computer Graphics.
-            Group project; programmed land-chunking, multi-threading, and blending of additional biomes.
+            For the final project for CIS 5600: Interactive Computer Graphics, I worked in a group of 3 to build a simple Minecraft clone.
+            We rigidly divided the work; my contributions include:
         </span>
+        <ul>
+            <li>
+                <b>Chunking:</b> I developed the “chunk” functionality that allows the terrain to be rendered in large sections
+                according to the Player's world position, with vertex data interleaved in a single VBO, and with
+                overlapping cube-faces being ignored to speed up the process.
+            </li>
+            <li>
+                <b>Multithreaded Terrain Generation:</b> I added multi-threaded functionality using the QRunnable library,
+                creating and destroying Chunks of land within a certain radius asynchronously around the Player as they move.
+            </li>
+            <li>
+                <b>Additional Biomes:</b> I designed four biomes (mountain, plain, desert, island) with distinct block-types
+                and noise-generated heightmaps, blending them between one another on the map using linear interpolation.     
+            </li>
+        </ul>
     </div>
     <div class="flexCol bigPics">
         <div class="vid">
@@ -183,11 +274,16 @@
         <br/>
         <br/>
         <span>
-            Rudimentary Maya clone for CIS 5600: Interactive Computer Graphics.
-            Programmed OBJ mesh-manipulation features such as edge splitting, face triangulation,
-            Catmull-Clark subdivision, and face extrusion,
-            which works due to half-edge data structure.
-            Also allows for mesh skinning based on an imported JSON skeleton.
+            As part of CIS 5600: Interactive Computer Graphics, I created a rudimentary mesh-manipulation program, similar to Maya.
+            By understanding and utilizing a half-edge data structure, I programmed features such as
+            <b>edge splitting, face triangulation, Catmull-Clark subdivision,</b> and <b>face extrusion</b> for an imported OBJ.
+            The half-edge structure may also be traversed using keyboard shortcuts,
+            and the positions of vertices and colors of faces may be altered upon selection.
+            Additionally, the application allows for <b>mesh skinning</b> based on an imported JSON skeleton.
+            Alongside coding the functionality myself, I created the interface window myself in Qt.
+            <br/><br/>
+            This project showcases my ability to manipulate half-edge structures in different ways using C++,
+            as well as my user interface design abilities in Qt.
         </span>
     </div>
     <div class="flexCol bigPics">
@@ -207,9 +303,14 @@
         <br/>
         <br/>
         <span>
-            OpenGL shader application for CIS 5600: Interactive Computer Graphics.
-            Wrote vertex and fragment shaders to apply various surface and post-processing effects
-            to Mario (and cow... and cube).
+            As part of CIS 5600: Interactive Computer Graphics, I created an OpenGL shader application.
+            I wrote various vertex and fragment shaders to apply both surface and post-processing effects to various 3D models.
+            The model may be rotated and moved around, with the effects persisting in the viewport.
+            This project demonstrates my ability to program shaders, as well as my proficiency in C++ and OpenGL Shader Language.
+            <br/><br/>
+            <b>Surface shader</b> effects that I programmed include Lambert, Blinn-Phong, matcap, color gradient, and vertex deformation.
+            <br/>
+            <b>Post-process shader</b> effects that I programmed include greyscale (with vignette effect), Gaussian blur, Sobel, bloom, and Worley noise.
         </span>
     </div>
     <div class="flexCol bigPics">
@@ -280,16 +381,17 @@
         <br/>
         <br/>
         <span>
-            Senior thesis, created in partial fulfillment of Princeton University's Certificate in Visual Arts.
-            A point-and-click game about tying up loose ends. Desktop-only.
+            Undergraduate senior thesis, created in partial fulfillment of Princeton University's Certificate in Visual Arts.
+            <br/><br/>
+            A point-and-click game/visual novel about tying up loose ends.
+            Includes interactive elements, side-quests, and multiple endings.
+            <br/><br/>
+            Desktop-only.
         </span>
         <br/>
         <span>Can be played <a href="http://falseaxiom.github.io/leftunsaid" target="_blank">here</a>.</span>
         <span>Access repository <a href="https://github.com/falseaxiom/leftunsaid" target="_blank">here</a>.</span>
-        <br/>
-        <span>
-            (See <a href="detail.html?draw=17">here</a> for show installation.)
-        </span>
+        <span>See gallery installation <a href="detail.html?draw=17">here</a>.</span>
     </div>
     <div class="flexCol bigPics">
         <img class="bigPic" src="../imgs/cs/22-4/1.png" width="100%" height="100%">
