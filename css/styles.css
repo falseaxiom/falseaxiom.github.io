@@ -129,6 +129,10 @@ li:before {
     margin-top: 100px;
     font-size: var(--title);
 }
+.title a {
+    text-decoration: none;
+    color: var(--dblue);
+}
 .container {
     width: 100vw;
     height: auto;
