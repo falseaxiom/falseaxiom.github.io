@@ -108,6 +108,46 @@
     background:  url("../imgs/art/24-2/render2.png") center no-repeat;
     background-size: cover;
 }
+.draw28 {
+    background:  url("../imgs/art/24-7/IMG_5002.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw29 {
+    background:  url("../imgs/art/24-8 1/IMG_0010.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw30{
+    background:  url("../imgs/art/24-8 2.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw31{
+    background:  url("../imgs/art/24-8 3/IMG_0046.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw32{
+    background:  url("../imgs/art/24-10 1.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw33{
+    background:  url("../imgs/art/24-10 2/IMG_0069.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw34{
+    background:  url("../imgs/art/24-10 3/IMG_0089.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw35{
+    background:  url("../imgs/art/24-10 4.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw36{
+    background:  url("../imgs/art/24-10 5/IMG_0126.PNG") center no-repeat;
+    background-size: cover;
+}
+.draw37{
+    background:  url("../imgs/art/24-10 6/IMG_0130.PNG") center no-repeat;
+    background-size: cover;
+}
 
 @media screen and (max-width: 999px) {
     
